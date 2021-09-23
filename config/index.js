@@ -8,9 +8,9 @@ module.exports = {
   HOST: process.env.HOST || '0.0.0.0',
   PORT: process.env.PORT || 3000,
   DATABASE: {
-    name: process.env.DB_NAME || 'staytouch',
-    username: process.env.DB_USER_NAME || 'postgres',
-    password: process.env.DB_PASSWORD || 'Krify@123',
+    name: process.env.DB_NAME ,
+    username: process.env.DB_USER_NAME ,
+    password: process.env.DB_PASSWORD,
     options: {
       host: process.env.DB_HOST || 'localhost',
       port: process.env.DB_PORT || 5432,
